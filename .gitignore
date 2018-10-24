@@ -1,0 +1,22 @@
+.DS_Store
+*.class
+
+###################################################
+# Build artifacts
+bin/
+target/
+build/
+.gradle/
+classes/
+.settings/
+.project
+.classpath
+
+###################################################
+# IntelliJ metadata
+*.iml
+*.ipr
+*.iws
+.idea/
+out/
+
