@@ -29,6 +29,11 @@ dependencies {
     implementation "io.helidon:helidon-bom:0.10.4"
     implementation 'io.helidon.webserver:helidon-webserver-bundle'
     implementation 'io.helidon.config:helidon-config-yaml'
+    implementation 'io.helidon.webserver:helidon-webserver-prometheus'
+    implementation "io.micrometer:micrometer-registry-prometheus:1.0.7"
+
+    implementation "io.helidon.microprofile.metrics:helidon-metrics-se"
+
     // logger
     runtimeOnly 'ch.qos.logback:logback-classic:1.2.3'
     runtimeOnly 'org.apache.logging.log4j:log4j-core:2.11.1'
